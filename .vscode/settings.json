@@ -1,0 +1,15 @@
+{
+    "cSpell.words": [
+        "Bomp",
+        "Ielts",
+        "Lsel",
+        "swiper",
+        "Zina"
+    ],
+    "files.associations": {
+        "*.ejs": "html",
+        "styleInput": "input: {         height: 40,         margin: 12,         borderWidth: 1,         padding: 10,         backgroundColor: '#fff'     },",
+        "achievement_dart": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

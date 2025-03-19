@@ -1,0 +1,110 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "game debug uat",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+
+        },
+        {
+            "name": "game debug staging",
+            "program": "lib/main.staging.dart",
+            "request": "launch",
+            "flutterMode": "debug",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "production",
+            ],
+        },
+        {
+            "name": "game debug production",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "flutterMode": "debug",
+            "type": "dart",
+            "args": [
+                "--flavor",
+                "production",
+            ],
+        },
+        {
+            "name": "game-app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "lms-app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "base",
+            "cwd": "packages/base",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "base (profile mode)",
+            "cwd": "packages/base",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "base (release mode)",
+            "cwd": "packages/base",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "common",
+            "cwd": "packages/common",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "common (profile mode)",
+            "cwd": "packages/common",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "common (release mode)",
+            "cwd": "packages/common",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "widgets",
+            "cwd": "packages/widgets",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "widgets (profile mode)",
+            "cwd": "packages/widgets",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "widgets (release mode)",
+            "cwd": "packages/widgets",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

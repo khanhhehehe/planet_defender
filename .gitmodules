@@ -1,0 +1,16 @@
+[submodule "packages/base_common"]
+	path = packages/base_common
+	url = git@gitlab.fsel.edu.vn:fsel/mobile/packages/base-common.git
+	branch = dev
+[submodule "packages/base_themes"]
+	path = packages/base_themes
+	url = git@gitlab.fsel.edu.vn:fsel/mobile/packages/game-themes.git
+	branch = dev
+[submodule "packages/base_widgets"]
+	path = packages/base_widgets
+	url = git@gitlab.fsel.edu.vn:fsel/mobile/packages/game-widgets.git
+	branch = dev
+[submodule "packages/localizations"]
+	path = packages/localizations
+	url = git@gitlab.fsel.edu.vn:fsel/mobile/packages/localizations-app.git
+	branch = dev
